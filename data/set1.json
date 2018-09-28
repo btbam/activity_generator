@@ -1,0 +1,8 @@
+[
+  {"event": "process_start", "executable_path": "/usr/bin/vi", "arguments": "/tmp/vi_test.txt" },
+  {"event": "file_create", "file_type": "txt", "location": "/tmp/testfile" },
+  {"event": "process_start", "executable_path": "/usr/bin/grep", "options": "-n we", "arguments": "/tmp/testfile" },
+  {"event": "file_modify", "file_type": "txt", "location": "/tmp/testfile" },
+  {"event": "file_delete", "file_type": "txt", "location": "/tmp/testfile" },
+  {"event": "network_transmit", "destination": "http://example.com", "request_type": "POST", "request_data": "{ \"foo\":\"xyz\" }" }
+]
