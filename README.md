@@ -10,7 +10,7 @@
 6. To run tests: `rake spec`
 
 
-## TODO
+### TODO
 1. I used the most basic cases for development and testing.  More complicated scenarios are sure to exist that this codebase will not cover right now.
 2. Gemfile may not contain all of the needed gems. I use rbenv locally which doesn't support gemsets out of the box.  I didn't have time to get a proper vbox/docker going.
 3. The tests only check on the 'mac' OS scenario.  More scenario are needed for each OS.
