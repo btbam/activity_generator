@@ -1,0 +1,5 @@
+# ignore any bundler stuff
+/.bundle
+
+event_results1.json
+event_results2.json
