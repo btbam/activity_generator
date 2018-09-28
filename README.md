@@ -11,9 +11,8 @@
 
 
 ### TODO
-1. I used the most basic cases for development and testing.  More complicated scenarios are sure to exist that this codebase will not cover right now.
-2. Gemfile may not contain all of the needed gems. I use rbenv locally which doesn't support gemsets out of the box.  I didn't have time to get a proper vbox/docker going.
-3. The tests only check on the 'mac' OS scenario.  More scenario are needed for each OS.
-4. The windows commands are a best guess.  Actual testing on a windows machine is needed.
-5. Tests can be refactored using shared examples and contexts.
-6. Dependency inject the 'process strategies' through the StartActivity class instead of having them hard coded into the switch.
+1. I used the most basic cases for development and testing.  More complicated scenarios are sure to exist that this codebase will not cover right now. I focused more on the 80% than the 20% of the 80/20 rule and avoided getting too far into the weeds with details.  There are probably a lot of edge cases missing.
+2. The tests only check on the 'mac' OS scenario.  More scenario are needed for each OS.
+3. The windows commands are a best guess.  Actual testing on a windows machine is needed.
+4. Tests can be refactored using shared examples and contexts.
+5. Dependency inject the 'process strategies' through the StartActivity class instead of having them hard coded into the switch.
