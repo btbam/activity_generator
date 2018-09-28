@@ -16,3 +16,4 @@
 3. The windows commands are a best guess.  Actual testing on a windows machine is needed.
 4. Tests can be refactored using shared examples and contexts.
 5. Dependency inject the 'process strategies' through the StartActivity class instead of having them hard coded into the switch.
+6. Better organization to the services directory
