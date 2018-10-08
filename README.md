@@ -17,3 +17,6 @@
 4. Tests can be refactored using shared examples and contexts.
 5. Dependency inject the 'process strategies' through the StartActivity class instead of having them hard coded into the switch.
 6. Better organization to the services directory
+7. Move "Event" hash to a proper object
+8. Move "OS" logic into a proper object
+9. Inject the "OS Commands" through a config class that leverages the "OS" object
